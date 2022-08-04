@@ -1,6 +1,9 @@
 {
     "recommendations": [
         "ms-vscode.cpptools",
-        "slevesque.shader"
+        "wayou.vscode-todo-highlight",
+        "slevesque.shader",
+        "cschlosser.doxdocgen"
     ]
 }
+
