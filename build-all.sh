@@ -10,12 +10,8 @@ fi
 
 echo "Building everything..."
 
-if [ -z $CI ]; then
-    cd engine
-else
-    cd ../engine
-fi
-source scripts/build.sh
+cd engine
+source build.sh
 cd ../
 
 ERRORLEVEL=$?
