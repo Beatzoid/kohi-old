@@ -1,8 +1,15 @@
 {
     "cSpell.words": [
+        "APPWINDOW",
+        "DBLCLKS",
         "debugbreak",
         "egor",
+        "ERASEBKGND",
+        "HICON",
+        "HINSTANCE",
         "humbletim",
+        "HWND",
+        "ICONEXCLAMATION",
         "KASSERT",
         "KASSERTIONS",
         "KERROR",
@@ -10,10 +17,32 @@
         "Kohi",
         "KRELEASE",
         "KWARN",
+        "LBUTTONDOWN",
+        "LBUTTONUP",
         "libx",
         "libxcb",
+        "LPARAM",
+        "LPDWORD",
+        "lpfn",
+        "LRESULT",
+        "MAXIMIZEBOX",
+        "MBUTTONDOWN",
+        "MBUTTONUP",
+        "MINIMIZEBOX",
         "mkdir",
-        "tensin"
+        "MOUSEWHEEL",
+        "RBUTTONDOWN",
+        "RBUTTONUP",
+        "SHOWMAXIMIZED",
+        "SHOWMINNOACTIVE",
+        "SHOWNOACTIVATE",
+        "SYSKEYDOWN",
+        "SYSKEYUP",
+        "SYSMENU",
+        "tensin",
+        "THICKFRAME",
+        "WNDCLASSA",
+        "WPARAM"
     ],
     "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0, NamespaceIndentation: All}",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
@@ -47,6 +76,8 @@
         "isWholeLine": false
     },
     "files.associations": {
-        "stdarg.h": "c"
+        "stdarg.h": "c",
+        "windows.h": "c",
+        "stralign.h": "c"
     }
 }
